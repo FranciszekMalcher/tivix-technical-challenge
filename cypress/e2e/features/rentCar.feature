@@ -1,4 +1,4 @@
-Feature: Rent Car
+Feature: Rent a Car
 
   Scenario: User search for a car
     Given I go to search page
