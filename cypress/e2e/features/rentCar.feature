@@ -15,7 +15,7 @@ Feature: Rent a Car
     And I click Rent button on first car on list
     Then I see details of car for rent
 
-  Scenario: User see details of car for rent
+  Scenario: User can rent a car
     Given I go to search page
     When I search for car for rent
       | country | city    | model | pickupDate | dropOffDate |
