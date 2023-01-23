@@ -1,0 +1,32 @@
+{
+  "name": "tivix",
+  "version": "1.0.0",
+  "description": "Cypress tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranciszekMalcher/tivix-technical-challenge.git"
+  },
+  "author": "Franciszek Malcher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FranciszekMalcher/tivix-technical-challenge/issues"
+  },
+  "homepage": "https://github.com/FranciszekMalcher/tivix-technical-challenge#readme",
+  "dependencies": {
+    "cypress": "^12.3.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+
+  "cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true
+    },
+    "stepDefinitions": "cypress/e2e/steps"
+  }
+
+  
+}
